@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/user_reg_back"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PARKING PAGE"
+            android:textStyle="bold"
+            android:id="@+id/txt1"
+            android:textColor="#333300"
+            android:textSize="40sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/reg"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NAME: "
+            android:textStyle="bold"
+            android:textSize="25sp"
+            />
+        <EditText
+            android:layout_width="150dp"
+            android:background="@drawable/edit_text"
+            android:paddingLeft="7dp"
+            android:height="30dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MAIL_ID: "
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/mail"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:height="30dp"
+            android:background="@drawable/edit_text"
+            android:paddingLeft="7dp" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PASSWORD: "
+            android:textStyle="bold"
+            android:textSize="25sp"
+            />
+        <EditText
+            android:layout_width="120dp"
+            android:id="@+id/password"
+            android:height="30dp"
+            android:paddingLeft="7dp"
+            android:background="@drawable/edit_text"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VEHICLE_NO : "
+            android:textStyle="bold"
+            android:textSize="25sp"
+            />
+        <EditText
+            android:layout_width="120dp"
+            android:id="@+id/car_no"
+            android:height="30dp"
+            android:paddingLeft="7dp"
+            android:background="@drawable/edit_text"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TYPE: "
+            android:textStyle="bold"
+            android:textSize="25sp"
+            />
+        <Spinner
+            android:id="@+id/type"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:entries="@array/vehicle_type"
+            android:scrollbarSize="60sp"
+            android:prompt="@string/prompt" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/empty"
+        android:text=""
+        android:textStyle="bold|italic"
+        android:textColor="#ff0000"
+        android:textSize="30sp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <Button
+        android:layout_marginTop="7dp"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="PARK"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/user_reg_button"
+        android:id="@+id/sunmit"/>
+
+
+</LinearLayout>

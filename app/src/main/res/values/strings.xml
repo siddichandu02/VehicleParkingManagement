@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Vehicle Parking</string>
+    <string name="prompt">car</string>
+
+    <string-array name="vehicle_type">
+        <item>car</item>
+        <item>truck</item>
+        <item>bike</item>
+
+    </string-array>
+</resources>

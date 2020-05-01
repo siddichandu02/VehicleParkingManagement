@@ -1,0 +1,189 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.dell.cars2"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\cars2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\cars2\app\src\main\AndroidManifest.xml
+10
+11    <!-- Required permission for App measurement to run. -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\db1921708b96595cf2b0af3ff9ab2523\firebase-analytics-11.8.0\AndroidManifest.xml:23:5-67
+12-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\db1921708b96595cf2b0af3ff9ab2523\firebase-analytics-11.8.0\AndroidManifest.xml:23:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\db1921708b96595cf2b0af3ff9ab2523\firebase-analytics-11.8.0\AndroidManifest.xml:24:5-79
+13-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\db1921708b96595cf2b0af3ff9ab2523\firebase-analytics-11.8.0\AndroidManifest.xml:24:22-76
+14    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+14-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\db1921708b96595cf2b0af3ff9ab2523\firebase-analytics-11.8.0\AndroidManifest.xml:25:5-68
+14-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\db1921708b96595cf2b0af3ff9ab2523\firebase-analytics-11.8.0\AndroidManifest.xml:25:22-65
+15    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+15-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\f25e9def786c3894a522c0ab8295bd02\firebase-iid-11.8.0\AndroidManifest.xml:26:5-82
+15-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\f25e9def786c3894a522c0ab8295bd02\firebase-iid-11.8.0\AndroidManifest.xml:26:22-79
+16
+17    <permission
+17-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\f25e9def786c3894a522c0ab8295bd02\firebase-iid-11.8.0\AndroidManifest.xml:28:5-30:47
+18        android:name="com.example.dell.cars2.permission.C2D_MESSAGE"
+18-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\f25e9def786c3894a522c0ab8295bd02\firebase-iid-11.8.0\AndroidManifest.xml:29:9-63
+19        android:protectionLevel="signature" />
+19-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\f25e9def786c3894a522c0ab8295bd02\firebase-iid-11.8.0\AndroidManifest.xml:30:9-44
+20
+21    <uses-permission android:name="com.example.dell.cars2.permission.C2D_MESSAGE" />
+21-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\f25e9def786c3894a522c0ab8295bd02\firebase-iid-11.8.0\AndroidManifest.xml:32:5-79
+21-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\f25e9def786c3894a522c0ab8295bd02\firebase-iid-11.8.0\AndroidManifest.xml:32:22-76
+22
+23    <application
+23-->C:\cars2\app\src\main\AndroidManifest.xml:5:5-24:19
+24        android:allowBackup="true"
+24-->C:\cars2\app\src\main\AndroidManifest.xml:6:9-35
+25        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+25-->[com.android.support:support-compat:28.0.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\420f0df75296c0c298bfa462b248254a\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\cars2\app\src\main\AndroidManifest.xml:7:9-43
+28        android:label="@string/app_name"
+28-->C:\cars2\app\src\main\AndroidManifest.xml:8:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->C:\cars2\app\src\main\AndroidManifest.xml:9:9-54
+30        android:supportsRtl="true"
+30-->C:\cars2\app\src\main\AndroidManifest.xml:10:9-35
+31        android:testOnly="true"
+32        android:theme="@style/AppTheme" >
+32-->C:\cars2\app\src\main\AndroidManifest.xml:11:9-40
+33        <activity android:name="com.example.dell.cars2.MainActivity" >
+33-->C:\cars2\app\src\main\AndroidManifest.xml:12:9-18:20
+33-->C:\cars2\app\src\main\AndroidManifest.xml:12:19-47
+34            <intent-filter>
+34-->C:\cars2\app\src\main\AndroidManifest.xml:13:13-17:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\cars2\app\src\main\AndroidManifest.xml:14:17-69
+35-->C:\cars2\app\src\main\AndroidManifest.xml:14:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\cars2\app\src\main\AndroidManifest.xml:16:17-77
+37-->C:\cars2\app\src\main\AndroidManifest.xml:16:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity android:name="com.example.dell.cars2.Registration" />
+40-->C:\cars2\app\src\main\AndroidManifest.xml:19:9-59
+40-->C:\cars2\app\src\main\AndroidManifest.xml:19:19-47
+41        <activity android:name="com.example.dell.cars2.User_Home" />
+41-->C:\cars2\app\src\main\AndroidManifest.xml:20:9-56
+41-->C:\cars2\app\src\main\AndroidManifest.xml:20:19-44
+42        <activity android:name="com.example.dell.cars2.Payment_User" />
+42-->C:\cars2\app\src\main\AndroidManifest.xml:21:9-59
+42-->C:\cars2\app\src\main\AndroidManifest.xml:21:19-47
+43        <activity android:name="com.example.dell.cars2.Success_Reg" />
+43-->C:\cars2\app\src\main\AndroidManifest.xml:22:9-58
+43-->C:\cars2\app\src\main\AndroidManifest.xml:22:19-46
+44        <activity android:name="com.example.dell.cars2.Login_User" />
+44-->C:\cars2\app\src\main\AndroidManifest.xml:23:9-57
+44-->C:\cars2\app\src\main\AndroidManifest.xml:23:19-45
+45
+46        <receiver
+46-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\db1921708b96595cf2b0af3ff9ab2523\firebase-analytics-11.8.0\AndroidManifest.xml:28:9-32:20
+47            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+47-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\db1921708b96595cf2b0af3ff9ab2523\firebase-analytics-11.8.0\AndroidManifest.xml:29:13-85
+48            android:enabled="true"
+48-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\db1921708b96595cf2b0af3ff9ab2523\firebase-analytics-11.8.0\AndroidManifest.xml:30:13-35
+49            android:exported="false" >
+49-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\db1921708b96595cf2b0af3ff9ab2523\firebase-analytics-11.8.0\AndroidManifest.xml:31:13-37
+50        </receiver>
+51        <receiver
+51-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\db1921708b96595cf2b0af3ff9ab2523\firebase-analytics-11.8.0\AndroidManifest.xml:33:9-41:20
+52            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+52-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\db1921708b96595cf2b0af3ff9ab2523\firebase-analytics-11.8.0\AndroidManifest.xml:34:13-100
+53            android:enabled="true"
+53-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\db1921708b96595cf2b0af3ff9ab2523\firebase-analytics-11.8.0\AndroidManifest.xml:35:13-35
+54            android:exported="true"
+54-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\db1921708b96595cf2b0af3ff9ab2523\firebase-analytics-11.8.0\AndroidManifest.xml:36:13-36
+55            android:permission="android.permission.INSTALL_PACKAGES" >
+55-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\db1921708b96595cf2b0af3ff9ab2523\firebase-analytics-11.8.0\AndroidManifest.xml:37:13-69
+56            <intent-filter>
+56-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\db1921708b96595cf2b0af3ff9ab2523\firebase-analytics-11.8.0\AndroidManifest.xml:38:13-40:29
+57                <action android:name="com.android.vending.INSTALL_REFERRER" />
+57-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\db1921708b96595cf2b0af3ff9ab2523\firebase-analytics-11.8.0\AndroidManifest.xml:39:17-79
+57-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\db1921708b96595cf2b0af3ff9ab2523\firebase-analytics-11.8.0\AndroidManifest.xml:39:25-76
+58            </intent-filter>
+59        </receiver>
+60
+61        <service
+61-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\db1921708b96595cf2b0af3ff9ab2523\firebase-analytics-11.8.0\AndroidManifest.xml:43:9-46:40
+62            android:name="com.google.android.gms.measurement.AppMeasurementService"
+62-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\db1921708b96595cf2b0af3ff9ab2523\firebase-analytics-11.8.0\AndroidManifest.xml:44:13-84
+63            android:enabled="true"
+63-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\db1921708b96595cf2b0af3ff9ab2523\firebase-analytics-11.8.0\AndroidManifest.xml:45:13-35
+64            android:exported="false" />
+64-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\db1921708b96595cf2b0af3ff9ab2523\firebase-analytics-11.8.0\AndroidManifest.xml:46:13-37
+65        <service
+65-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\db1921708b96595cf2b0af3ff9ab2523\firebase-analytics-11.8.0\AndroidManifest.xml:47:9-51:72
+66            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+66-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\db1921708b96595cf2b0af3ff9ab2523\firebase-analytics-11.8.0\AndroidManifest.xml:48:13-87
+67            android:enabled="true"
+67-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\db1921708b96595cf2b0af3ff9ab2523\firebase-analytics-11.8.0\AndroidManifest.xml:49:13-35
+68            android:exported="false"
+68-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\db1921708b96595cf2b0af3ff9ab2523\firebase-analytics-11.8.0\AndroidManifest.xml:50:13-37
+69            android:permission="android.permission.BIND_JOB_SERVICE" />
+69-->[com.google.firebase:firebase-analytics:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\db1921708b96595cf2b0af3ff9ab2523\firebase-analytics-11.8.0\AndroidManifest.xml:51:13-69
+70
+71        <receiver
+71-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\f25e9def786c3894a522c0ab8295bd02\firebase-iid-11.8.0\AndroidManifest.xml:35:9-44:20
+72            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+72-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\f25e9def786c3894a522c0ab8295bd02\firebase-iid-11.8.0\AndroidManifest.xml:36:13-78
+73            android:exported="true"
+73-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\f25e9def786c3894a522c0ab8295bd02\firebase-iid-11.8.0\AndroidManifest.xml:37:13-36
+74            android:permission="com.google.android.c2dm.permission.SEND" >
+74-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\f25e9def786c3894a522c0ab8295bd02\firebase-iid-11.8.0\AndroidManifest.xml:38:13-73
+75            <intent-filter>
+75-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\f25e9def786c3894a522c0ab8295bd02\firebase-iid-11.8.0\AndroidManifest.xml:39:13-43:29
+76                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+76-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\f25e9def786c3894a522c0ab8295bd02\firebase-iid-11.8.0\AndroidManifest.xml:40:17-81
+76-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\f25e9def786c3894a522c0ab8295bd02\firebase-iid-11.8.0\AndroidManifest.xml:40:25-78
+77
+78                <category android:name="com.example.dell.cars2" />
+78-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\f25e9def786c3894a522c0ab8295bd02\firebase-iid-11.8.0\AndroidManifest.xml:42:17-61
+78-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\f25e9def786c3894a522c0ab8295bd02\firebase-iid-11.8.0\AndroidManifest.xml:42:27-58
+79            </intent-filter>
+80        </receiver>
+81        <!--
+82             FirebaseInstanceIdService performs security checks at runtime,
+83             no need for explicit permissions despite exported="true"
+84        -->
+85        <service
+85-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\f25e9def786c3894a522c0ab8295bd02\firebase-iid-11.8.0\AndroidManifest.xml:50:9-56:19
+86            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+86-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\f25e9def786c3894a522c0ab8295bd02\firebase-iid-11.8.0\AndroidManifest.xml:51:13-77
+87            android:exported="true" >
+87-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\f25e9def786c3894a522c0ab8295bd02\firebase-iid-11.8.0\AndroidManifest.xml:52:13-36
+88            <intent-filter android:priority="-500" >
+88-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\f25e9def786c3894a522c0ab8295bd02\firebase-iid-11.8.0\AndroidManifest.xml:53:13-55:29
+88-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\f25e9def786c3894a522c0ab8295bd02\firebase-iid-11.8.0\AndroidManifest.xml:53:28-51
+89                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+89-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\f25e9def786c3894a522c0ab8295bd02\firebase-iid-11.8.0\AndroidManifest.xml:54:17-80
+89-->[com.google.firebase:firebase-iid:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\f25e9def786c3894a522c0ab8295bd02\firebase-iid-11.8.0\AndroidManifest.xml:54:25-77
+90            </intent-filter>
+91        </service>
+92
+93        <provider
+93-->[com.google.firebase:firebase-common:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\ec6987e6e28d862e9b11196c0d5b8e06\firebase-common-11.8.0\AndroidManifest.xml:8:9-12:39
+94            android:name="com.google.firebase.provider.FirebaseInitProvider"
+94-->[com.google.firebase:firebase-common:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\ec6987e6e28d862e9b11196c0d5b8e06\firebase-common-11.8.0\AndroidManifest.xml:9:13-77
+95            android:authorities="com.example.dell.cars2.firebaseinitprovider"
+95-->[com.google.firebase:firebase-common:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\ec6987e6e28d862e9b11196c0d5b8e06\firebase-common-11.8.0\AndroidManifest.xml:10:13-72
+96            android:exported="false"
+96-->[com.google.firebase:firebase-common:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\ec6987e6e28d862e9b11196c0d5b8e06\firebase-common-11.8.0\AndroidManifest.xml:11:13-37
+97            android:initOrder="100" />
+97-->[com.google.firebase:firebase-common:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\ec6987e6e28d862e9b11196c0d5b8e06\firebase-common-11.8.0\AndroidManifest.xml:12:13-36
+98
+99        <meta-data
+99-->[com.google.android.gms:play-services-basement:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\ee9797d4ad83e8f9f792d7c843cdf6e9\play-services-basement-11.8.0\AndroidManifest.xml:23:9-25:69
+100            android:name="com.google.android.gms.version"
+100-->[com.google.android.gms:play-services-basement:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\ee9797d4ad83e8f9f792d7c843cdf6e9\play-services-basement-11.8.0\AndroidManifest.xml:24:13-58
+101            android:value="@integer/google_play_services_version" />
+101-->[com.google.android.gms:play-services-basement:11.8.0] C:\Users\CS185304\.gradle\caches\transforms-2\files-2.1\ee9797d4ad83e8f9f792d7c843cdf6e9\play-services-basement-11.8.0\AndroidManifest.xml:25:13-66
+102    </application>
+103
+104</manifest>
